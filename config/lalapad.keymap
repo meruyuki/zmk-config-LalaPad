@@ -201,10 +201,10 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PAGE_UP    &kp PRINTSCREEN  &kp KP_SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp HOME       &kp END          &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&trans     &trans        &trans        &trans        &trans        &trans        &kp PAGE_DOWN  &kp KP_MINUS     &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans         &kp DELETE       &trans           &kp KP_NUMBER_0  &dot_comma       &kp KP_ENTER
+&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PAGE_UP    &kp PRINTSCREEN  &kp KP_SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp HOME       &kp END          &kp KP_ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6
+&trans     &trans        &trans        &trans        &trans        &trans        &kp PAGE_DOWN  &kp KP_MINUS     &kp KP_PLUS      &kp N7        &kp N8        &kp N9
+&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans         &kp DELETE       &trans           &kp ASTERISK  &kp N0        &kp HASH
                          &trans        &trans        &trans        &trans        &trans         &trans           &trans           &trans
             >;
         };
