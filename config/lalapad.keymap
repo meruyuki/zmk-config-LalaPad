@@ -212,11 +212,11 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans
-                 &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans
+&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_BRI_INC  &kp C_BRI_DEC   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6           &kp F7             &kp F8      &kp F9         &kp C_SNAPSHOT  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F11          &kp F12            &kp F13     &kp F14        &kp F15         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans             &trans      &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans             &trans      &trans         &trans          &trans  &trans  &trans  &trans
             >;
         };
 
@@ -258,11 +258,11 @@
         MOUSE_L_LAYER {
             display-name = "mouse_l_layer";
             bindings = <
-&mo 7   &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mo 7               &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &mo SCROLL_L_LAYER  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &mkp MB5   &mkp MB4   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans              &trans     &mkp MB5   &mkp MB4   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans              &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
