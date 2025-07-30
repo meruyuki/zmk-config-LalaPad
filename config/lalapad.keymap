@@ -201,11 +201,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &trans  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp HOME     &kp C_AC_SEARCH  &trans  &kp KP_PLUS      &kp KP_MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&trans     &trans  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp END      &kp C_SNAPSHOT   &trans  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp NUMBER_4  &kp N5        &kp NUMBER_6
-&trans     &trans  &trans                &kp K_MUTE         &kp AT_SIGN  &trans           &trans  &kp KP_EQUAL     &kp KP_EQUAL   &kp N7        &kp N8        &kp N9
-&trans     &trans  &trans                &trans             &trans       &kp CAPS         &trans  &kp DELETE       &trans         &kp DOT       &kp N0        &kp COMMA
-                   &trans                &trans             &trans       &trans           &trans  &trans           &trans         &trans
+&kp TILDE  &trans  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp C_AC_HOME  &kp C_AC_SEARCH  &trans  &kp KP_PLUS      &kp KP_MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&trans     &trans  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp END        &kp C_SNAPSHOT   &trans  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp NUMBER_4  &kp N5        &kp NUMBER_6
+&trans     &trans  &trans                &kp K_MUTE         &kp SLASH      &kp AT_SIGN      &trans  &kp KP_EQUAL     &kp KP_EQUAL   &kp N7        &kp N8        &kp N9
+&trans     &trans  &trans                &trans             &trans         &kp CAPS         &trans  &kp DELETE       &trans         &kp DOT       &kp N0        &kp COMMA
+                   &trans                &trans             &trans         &trans           &trans  &trans           &trans         &trans
             >;
         };
 
