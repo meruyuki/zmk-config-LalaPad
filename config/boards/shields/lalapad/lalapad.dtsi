@@ -108,7 +108,6 @@
         dr-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "2x";
-        no-taps;
         no-smoothing;
         //absolute-mode;
     };
